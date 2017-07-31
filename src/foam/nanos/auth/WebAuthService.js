@@ -12,6 +12,7 @@ foam.INTERFACE({
     {
       name: 'generateChallenge',
       javaReturns: 'String',
+      returns: 'Promise',
       args: [
         {
           name: 'userId',
@@ -50,6 +51,7 @@ foam.INTERFACE({
     {
       name: 'check',
       javaReturns: 'Boolean',
+      returns: 'Promise',
       args: [
         {
           name: 'userId',
@@ -82,6 +84,7 @@ foam.INTERFACE({
     {
       name: 'validateUser',
       javaReturns: 'Boolean',
+      returns: 'Promise',
       args: [
         {
           name: 'user',
